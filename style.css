@@ -1,0 +1,279 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: hsl(245, 48%, 31%);
+}
+.navigation {
+    display: flex;
+    margin-left: 450px;
+}
+.navigation a {
+    flex-direction: row;
+    color: white;
+    font-size: 1rem;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.heading {
+    text-align: center;
+}
+.one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: white;
+}
+.three {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+.welcome {
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px black;
+    background-image: url("./Images/picture1.png");
+    background-size: 100%;
+    height: 400px;
+    width: 700px;
+    opacity: 90%;
+    margin-left: 300px;
+}
+.info {
+    color: white;
+    font-size: 1rem;
+    margin: 40px 40px -10px 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Row of pictures*/
+.pictures {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.firstrow img {
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.picture3 {
+    height: 200px;
+    width: 200px;
+}
+.picture5 {
+    height: 200px;
+    width: 200px;
+}
+.picture7 {
+    height: 200px;
+    width: 200px;
+}
+#contact {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+#contact h4 {
+    font-style: italic;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.copy {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7rem;
+    position: absolute;
+}
+button {
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+button a {
+    text-decoration: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+button:active {
+    border-radius: 20px;
+    background-color: white;
+}
+
+/*Start of Hank CSS*/
+.hank {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hank img {
+    flex-direction: row;
+    margin-top: 30px;
+    background-size: 100%;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+.hanktext {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+.hankpictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.hank1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.hank2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.hank3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*Start of Willow CSS*/
+.willow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.willow img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.willowtext {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+.willowrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.willow1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.willow2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.willow3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*Start of CC CSS*/
+.cc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cc img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.cctext {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+.ccrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.cc1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.cc2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.cc3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 800px) {
+    .navigation {
+        margin-left: 47px;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    .navigation {
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .welcome {
+        margin-left: 0%;
+        width: auto;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .firstrow img {
+        padding: 10px;
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .hankpictures, .willowrow, .ccrow {
+        flex-direction: column;
+        margin-left: 82px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .willow img {
+        flex-direction: column;
+        margin-left: 60px;
+    }
+}
